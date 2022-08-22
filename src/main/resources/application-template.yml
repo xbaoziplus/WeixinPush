@@ -1,0 +1,34 @@
+# 应用名称
+spring:
+  application:
+    name: WeixinPush
+# 百度地图开发平台应用的AK码
+baiduMap:
+  # AK码
+  AK: 你的AK码
+  # 地方行政编码
+  localAdminCode: 用于获取天气
+  # 彩虹屁接口key
+  caiHongPiKey: 你的彩虹屁接口key
+  # 英语一句话
+  enSentence: 你的英语一句话接口key
+
+MyTime:
+  # 牵手日期
+  LoveTime: 你们的牵手日期
+  # 另一半生日
+  LoverBirthday: 你另一半生日
+
+MyWeiXin:
+  appId: 公众号appId
+  appsecret: 公众号appsecret
+  templateId: 模板ID
+
+wx-user:
+  myUser:
+    # 用户1，你的另一半
+    - oqyhF6MA2NEqKqGDspDveR5DsOA0
+    # 用户2，可多发给自己检验，也可咕咕咕
+    - oqyhF6IqzQ26PCBHmODjy8VJatDw
+
+
