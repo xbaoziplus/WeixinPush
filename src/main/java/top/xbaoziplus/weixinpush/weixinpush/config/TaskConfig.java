@@ -22,7 +22,10 @@ public class TaskConfig {
     @Autowired
     UserPropertyConfig userPropertyConfig;
 
-    @Scheduled(cron = "0 15 17 * * ?")
+    /**
+     * 表示每天早上的7:30:00执行任务
+     */
+    @Scheduled(cron = "0 30 7 * * ?")
     public void goodMorning(){
         // 获取配置文件中的用户集合，逐个发送
         userPropertyConfig.getMyUser().forEach(userId -> {
