@@ -1,4 +1,4 @@
-package top.xbaoziplus.weixinpush.weixinpush.utils;
+package top.xbaoziplus.wechatpush.utils;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Component;

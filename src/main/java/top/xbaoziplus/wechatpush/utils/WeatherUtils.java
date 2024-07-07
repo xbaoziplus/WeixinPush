@@ -1,11 +1,11 @@
-package top.xbaoziplus.weixinpush.weixinpush.utils;
+package top.xbaoziplus.wechatpush.utils;
 
 import com.alibaba.fastjson.JSONArray;
 import com.alibaba.fastjson.JSONObject;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Component;
 import org.springframework.web.client.RestTemplate;
-import top.xbaoziplus.weixinpush.weixinpush.entity.Weather;
+import top.xbaoziplus.wechatpush.entity.Weather;
 
 import java.util.HashMap;
 import java.util.List;

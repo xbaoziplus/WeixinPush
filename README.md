@@ -49,7 +49,7 @@
 5. 进入到[天行数据](https://www.tianapi.com/list/)中挑选喜欢的API进行申请，这里推荐的是彩虹屁和土味情话，当然也可以其他的。主要是为了拿到接口的key
 ![输入图片说明](readme02.png)
 6. 按照application-template.yml里面的模板将自己的信息往里填，所有的数据都能在上面的步骤中拿到，其余的就是你们的私密信息了
-7. 定时默认的是每天6：30分，可前往 **top.xbaoziplus.weixinpush.weixinpush.config.TaskConfig** 自行修改
+7. 定时默认的是每天6：30分，可前往 **config.top.xbaoziplus.wechatpush.TaskConfig** 自行修改
 ## 结果演示
 到这里将项目运行起来，就能在设定时间内接收到公众号的消息推送啦。另外为了可以及时测试，在测试类中有各个工具类以及整体推送的测试方法，以及编写了两个Rest接口，可以直接使用Postman或浏览器直接请求API进行推送，其中一个接口中的参数是替换掉彩虹屁的文字的，可以自定义语录进行传参。
 

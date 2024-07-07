@@ -10,7 +10,7 @@ EXPOSE 8520
 # 设置工作目录
 WORKDIR /levam
 #不确定jar名字可以写*.jar 即为所以
-COPY WeixinPush-0.0.1-SNAPSHOT.jar /levam/app.jar
+COPY *.jar /levam
 COPY lib /levam/lib
 #挂载目录
 #VOLUME /tmp

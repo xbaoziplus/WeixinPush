@@ -1,17 +1,14 @@
-package top.xbaoziplus.weixinpush.weixinpush.config;
+package top.xbaoziplus.wechatpush.config;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.scheduling.annotation.Scheduled;
 import org.springframework.stereotype.Component;
-import top.xbaoziplus.weixinpush.weixinpush.web.Pusher;
+import top.xbaoziplus.wechatpush.web.Pusher;
 
 /**
- * @ClassName TaskConfig
- * @BelongsProject WeixinPush
- * @BelongsPackage top.xbaoziplus.weixinpush.weixinpush.config
- * @Author xbaozi
- * @CreateTime 2022-08-22  18:58
- * @Description 定时任务
+ * @author xbaozi
+ * @create 2022-08-22  18:58
+ * @description 定时任务
  * @Version 1.0
  */
 @Component

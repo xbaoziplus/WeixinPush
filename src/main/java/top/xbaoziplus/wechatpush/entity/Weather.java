@@ -1,16 +1,13 @@
-package top.xbaoziplus.weixinpush.weixinpush.entity;
+package top.xbaoziplus.wechatpush.entity;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
 /**
- * @ClassName Weather
- * @BelongsProject WeixinPush
- * @BelongsPackage top.xbaoziplus.weixinpush.weixinpush.entity
- * @Author xbaozi
- * @CreateTime 2022-08-22  17:21
- * @Description 对应官网的天气实体类
+ * @author xbaozi
+ * @create 2022-08-22  17:21
+ * @description 对应官网的天气实体类
  * @Version 1.0
  */
 @Data

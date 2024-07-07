@@ -1,20 +1,17 @@
-package top.xbaoziplus.weixinpush.weixinpush.web;
+package top.xbaoziplus.wechatpush.web;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
-import top.xbaoziplus.weixinpush.weixinpush.config.UserPropertyConfig;
+import top.xbaoziplus.wechatpush.config.UserPropertyConfig;
 
 import java.util.HashMap;
 import java.util.Map;
 
 /**
- * @ClassName PushController
- * @BelongsProject WeixinPush
- * @BelongsPackage top.xbaoziplus.weixinpush.weixinpush.web
- * @Author xbaozi
- * @CreateTime 2022-08-22  19:37
+ * @author xbaozi
+ * @create 2022-08-22  19:37
  * @Version 1.0
  */
 @RestController
